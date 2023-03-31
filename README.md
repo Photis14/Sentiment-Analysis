@@ -6,7 +6,6 @@ This program calculates the sentiment level of words based on user reviews from 
 The program uses a dataset of Yelp reviews written by members, with a total of 156,602 reviews. Each review includes a text fragment and a star rating on a scale from 1 (worst) to 5 (best). The sentiment level of a word is determined by the average star rating of all reviews where the word is used.
 
 # Processing Steps
-The following processing steps are taken by the program:
 
 The program loads the JSON data from the file and selects a small subset for practicing. The final run of the program includes all reviews. A JSON reader is used.
 The program extracts all review texts and star ratings.
