@@ -2,7 +2,7 @@
 
 This program calculates the sentiment level of words based on user reviews from the Yelp academic dataset. Unlike standard sentiment analyzers, this program does not use VADER or any other pre-existing tool.
 
-#Dataset
+# Dataset
 The program uses a dataset of Yelp reviews written by members, with a total of 156,602 reviews. Each review includes a text fragment and a star rating on a scale from 1 (worst) to 5 (best). The sentiment level of a word is determined by the average star rating of all reviews where the word is used.
 
 # Processing Steps
