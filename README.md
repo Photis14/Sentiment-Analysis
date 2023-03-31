@@ -18,6 +18,6 @@ The program uses a CSV writer to save the file.
 Usage
 To run the program, simply download the provided source code and run the main Python file. The program will automatically load the Yelp dataset, process it, and output a CSV file with the most negative and positive lemmas.
 
-Requirements
+# Requirements
 The program only uses core Python modules and NLTK. No other external libraries, such as pandas or numpy, are used.
 Link to download json file(too large for github): https://www.dropbox.com/s/at6ltakpiictakf/yelp_academic_dataset_review_small.json?dl=0
