@@ -15,7 +15,7 @@ Stop words and words that are not in the words corpus are filtered out.
 For each lemma, the program calculates its average star rating. If a lemma is used in fewer than 10 reviews, it is discarded.
 The 500 most negative and 500 most positive lemmas and their respective sentiment levels are saved in a two-column CSV file, sorted in descending order of sentiment levels.
 The program uses a CSV writer to save the file.
-Usage
+# Usage
 To run the program, simply download the provided source code and run the main Python file. The program will automatically load the Yelp dataset, process it, and output a CSV file with the most negative and positive lemmas.
 
 # Requirements
